@@ -69,7 +69,7 @@ public class NavigationDemo {
         nationalityField = new JTextField();
         formPanel.add(nationalityField);
         String[] gender = {"Male", "Female"};
-        formPanel.add(new JLabel("Sex:"));
+        formPanel.add(new JLabel("Gender:"));
         genderComboBox = new JComboBox<>(gender);
         formPanel.add(genderComboBox);
         String[] country = {"Uganda", "Kenya", "Tanzania", "Rwanda", "Congo", "Burundi"};

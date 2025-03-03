@@ -4,9 +4,10 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.DefaultListModel;
+
 public class NavigationDemo {
-    JFrame frame1, frame2;
-    JPanel dataPanel, recordsPanel;
+    JFrame frame1, dataPanel,
+            recordsPanel;
     DefaultListModel<String> listModel;
     JList<String> recordList;
     JTextField fullNameField, dateOfBirthField, nationalityField;
@@ -14,7 +15,6 @@ public class NavigationDemo {
     JTextArea feedbackTextArea;
 
     public NavigationDemo(){
-
         this.prepareTheProgram();
     }
 

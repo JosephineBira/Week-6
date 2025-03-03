@@ -6,7 +6,8 @@ import java.awt.event.ActionListener;
 import javax.swing.DefaultListModel;
 public class NavigationDemo {
     JFrame frame1, frame2;
-    JPanel dataPanel, recordsPanel;
+    JPanel dataPanel,
+            recordsPanel;
     DefaultListModel<String> listModel;
     JList<String> recordList;
     JTextField fullNameField, dateOfBirthField, nationalityField;

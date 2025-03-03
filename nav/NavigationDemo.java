@@ -6,7 +6,8 @@ import java.awt.event.ActionListener;
 import javax.swing.DefaultListModel;
 
 public class NavigationDemo {
-    JFrame frame1, dataPanel,
+    JFrame frame1,
+            JPannel dataPanel,
             recordsPanel;
     DefaultListModel<String> listModel;
     JList<String> recordList;

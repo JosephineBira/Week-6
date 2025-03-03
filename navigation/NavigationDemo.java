@@ -85,7 +85,7 @@ public class NavigationDemo {
         formPanel.add(feedbackTextArea);
         formPanel.setBackground(Color.WHITE);
         formPanel.setBorder(BorderFactory.createLineBorder(Color.BLACK));
-        formPanel.setPreferredSize(new Dimension(600, 400));
+        formPanel.setPreferredSize(new Dimension(400, 400));
 
         return formPanel;
     }

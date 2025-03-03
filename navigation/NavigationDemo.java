@@ -13,7 +13,6 @@ public class NavigationDemo {
     JTextField fullNameField, dateOfBirthField, nationalityField;
     JComboBox<String> genderComboBox, countryComboBox, statusComboBox;
     JTextArea feedbackTextArea;
-
     public NavigationDemo(){
 
         this.prepareTheProgram();

@@ -1,4 +1,6 @@
+<<<<<<<<< Temporary merge branch 1
 
+=========
 pipeline {
     agent any
     tools {
@@ -28,3 +30,4 @@ pipeline {
         }
     }
 }
+>>>>>>>>> Temporary merge branch 2

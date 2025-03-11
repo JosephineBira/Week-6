@@ -19,10 +19,11 @@ pipeline {
   }
 
  stage('SonarQube Analysis') {
-     
+     steps{
     withSonarQubeEnv() {
       bat "mvn clean verify sonar:sonar -Dsonar.projectKey=zaydbuild -Dsonar.projectName='zaydbuild'"
     }
+}
         }
         stage('Deploy') {
             steps {
